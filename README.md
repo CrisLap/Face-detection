@@ -1,9 +1,3 @@
-# Face detection project
-
-Building an ML Model for Face Detection in Images:
-The data pre-processing and model training can be found in the train_model.ipynb file. The utilization of the model on unseen data for detecting the presence of faces has been incorporated into the Face_Detection.ipynb file.
-
-
 # Face Detection from scratch: Comprehensive Framework and Analysis
 
 This repository provides scripts and resources for creating a custom face detection system without using pre-trained models. The approach leverages *Histogram of Oriented Gradients* (HOG) features for object detection, along with data augmentation, sliding windows, non-maximum suppression, and Support Vector Machines (SVM) classification.
