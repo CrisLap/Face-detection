@@ -15,7 +15,7 @@ This repository provides scripts and resources for creating a custom face detect
 ## Approach Overview
 
 1. **Data Loading and Augmentation**:
-   - Positive and negative image samples are loaded from the `pos_dataset` and `neg_dataset` folders, respectively.
+   - Positive and negative image samples are loaded from the `positive_images` and `negative_images` folders, respectively.
    - Positive images are augmented by simulating distance variation and adding mirrored images to increase training data.
    - Negative images are augmented by extracting random patches to diversify the negative dataset.
 
